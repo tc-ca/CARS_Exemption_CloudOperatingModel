@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "exemptions", "exemptions.vbproj", "{56E3DEB0-72C7-4008-80B6-CDC15C6933E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Acceptance|Any CPU = Acceptance|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56E3DEB0-72C7-4008-80B6-CDC15C6933E6}.Acceptance|Any CPU.ActiveCfg = Accp|Any CPU
+		{56E3DEB0-72C7-4008-80B6-CDC15C6933E6}.Acceptance|Any CPU.Build.0 = Accp|Any CPU
+		{56E3DEB0-72C7-4008-80B6-CDC15C6933E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E3DEB0-72C7-4008-80B6-CDC15C6933E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E3DEB0-72C7-4008-80B6-CDC15C6933E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E3DEB0-72C7-4008-80B6-CDC15C6933E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3E368BF-9911-42FA-B8E2-B2C93563D26B}
+	EndGlobalSection
+EndGlobal

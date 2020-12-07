@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<streamTagFilter>
+	<contentTypes>
+		<item mimeType="text/html" />
+	</contentTypes>
+	<plugins>
+		<item type="CommentBlockPlugin.CommentBlockPlugin, CommentBlockPlugin.NET.4.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d3d707ec692e4024" />
+		<item type="CommentBlockPlugin.CommentBlockPlugin, CommentBlockPlugin.NET.2.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d3d707ec692e4024" />
+		<item type="CLFPagePlugin.CLFPagePlugin, CLFPagePlugin.NET.4.0, Version=1.0.14.0, Culture=neutral, PublicKeyToken=fad3fbff38aeafef" />
+		<item type="CLFPagePlugin.CLFPagePlugin, CLFPagePlugin.NET.2.0, Version=1.0.14.0, Culture=neutral, PublicKeyToken=fad3fbff38aeafef" />
+		<item type="CLFPagePlugin.CLFPagePlugin, CLFPagePlugin.NET.4.0, Version=1.1.0.0, Culture=neutral, PublicKeyToken=61d0541103084060" />
+		<item type="CLFPagePlugin.CLFPagePlugin, CLFPagePlugin.NET.2.0, Version=1.1.0.0, Culture=neutral, PublicKeyToken=61d0541103084060" />
+		<item type="CLFPagePlugin.CLFPagePlugin, CLFPagePlugin.NET.4.0, Version=1.1.4.2, Culture=neutral, PublicKeyToken=f22afde5a0355a0d" />
+		<item type="CLFPagePlugin.CLFPagePlugin, CLFPagePlugin.NET.2.0, Version=1.1.4.2, Culture=neutral, PublicKeyToken=f22afde5a0355a0d" />
+	</plugins>
+	<debug mode="Maximum" />
+</streamTagFilter>
