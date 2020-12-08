@@ -102,7 +102,10 @@
   <ItemGroup>
     <Content Include="AppVer.html" />
     <None Include="DLL References\civav_corelib.dll" />
-    <Content Include="DLL References\StreamTagFilter.xml" />
+    <EmbeddedResource Include="DLL References\StreamTagFilter.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <BrowseToURL>~/StreamTagFilter.xml</BrowseToURL>
+    </EmbeddedResource>
     <Content Include="default.aspx" />
     <None Include="DLL References\StreamTagFilter.NET.4.0.dll" />
     <Content Include="err.aspx" />
