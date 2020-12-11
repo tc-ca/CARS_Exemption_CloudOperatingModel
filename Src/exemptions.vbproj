@@ -224,6 +224,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\docs\en\" />
+    <Folder Include="App_Data\docs\fr\" />
     <Folder Include="bin\" />
   </ItemGroup>
   <PropertyGroup>

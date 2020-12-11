@@ -250,7 +250,8 @@ Public Class app_page
     'End Sub
 
     Protected Function GetDocPaths() As String
-        Return System.Configuration.ConfigurationManager.AppSettings("doc_file_path_" & Left(_lang, 2))
+        'Return System.Configuration.ConfigurationManager.AppSettings("doc_file_path_" & Left(_lang, 2))
+        Return Server.MapPath(ConfigurationManager.AppSettings("doc_file_path_" & Left(_lang, 2)))
     End Function
 
     Protected Function GetHtmlUrl() As String
