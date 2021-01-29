@@ -1,0 +1,22 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="exemptions.Site" %>
+
+<!DOCTYPE html>
+<html id="Html1" runat="server">
+<head id="Head1" runat="server">
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <clf:header />
+</head>
+<body>
+    <clf:body>
+    <form id="form1" runat="server" class="indent-none margin-right-none">
+    <div id="divContent">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" ClientIDMode="Static" >
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    </clf:body>
+</body>
+</html>

@@ -58,6 +58,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>DLL References\civav_corelib.dll</HintPath>
     </Reference>
+    <Reference Include="CLFPagePlugin.NET.4.0, Version=1.1.5.0, Culture=neutral, PublicKeyToken=f22afde5a0355a0d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL References\CLFPagePlugin.NET.4.0.dll</HintPath>
+    </Reference>
+    <Reference Include="CommentBlockPlugin.NET.4.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d3d707ec692e4024, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL References\CommentBlockPlugin.NET.4.0.dll</HintPath>
+    </Reference>
     <Reference Include="StreamTagFilter.NET.4.0, Version=1.0.6.2, Culture=neutral, PublicKeyToken=d3d707ec692e4024, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>DLL References\StreamTagFilter.NET.4.0.dll</HintPath>
@@ -108,6 +116,8 @@
     </EmbeddedResource>
     <Content Include="default.aspx" />
     <None Include="DLL References\StreamTagFilter.NET.4.0.dll" />
+    <Content Include="DLL References\CLFPagePlugin.NET.4.0.dll" />
+    <Content Include="DLL References\CommentBlockPlugin.NET.4.0.dll" />
     <Content Include="err.aspx" />
     <Content Include="e_s_r.aspx" />
     <Content Include="e_s.aspx" />
